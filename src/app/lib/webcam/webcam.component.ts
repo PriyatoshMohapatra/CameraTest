@@ -73,7 +73,7 @@ export class WebCamComponent implements OnInit, AfterViewInit {
     
     this.isSupportWebRTC = !!(this.browser.mediaDevices && this.browser.mediaDevices.getUserMedia);
     // default options
-    this.options.fallbackSrc = this.options.fallbackSrc || 'node_modules/ng2-webcam/lib/fallback/jscam_canvas_only.swf';
+    //this.options.fallbackSrc = this.options.fallbackSrc || 'node_modules/ng2-webcam/lib/fallback/jscam_canvas_only.swf';
     this.options.fallbackMode = this.options.fallbackMode || 'callback';
     this.options.fallbackQuality = this.options.fallbackQuality || 85;
     this.options.width = this.options.width || 320;
